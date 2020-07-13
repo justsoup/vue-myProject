@@ -1,0 +1,21 @@
+<template>
+  <div class="firstcomponent">
+    <h1>I am a title</h1>
+    <a>written by {{author}}</a>
+  </div>
+</template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      author: '微信公众号刀弟弟'
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
